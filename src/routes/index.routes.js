@@ -15,7 +15,7 @@ const loggedInRoutes = () => {
 const authroutes = () => {
   // aca se registran todas las rutas de la parte exterior
   const router = Router();
-  router.get("/", (req,res)=>res.send("WELCOME TO THE API!"));
+  router.get("/", (req,res)=>res.send("Bienvenides!"));
   router.use("/auth", authRoutes);
   return router;
 };
